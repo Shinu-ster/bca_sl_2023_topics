@@ -72,3 +72,44 @@ console.log("Unshift Example")
 kings.unshift("Prithvi")
 kings.unshift("Gehendra")
 console.log(kings)
+
+// 5. splice() - add and/or remove element from specified index
+let languages = ["Java","JavaScript","PHP"]
+
+//this methods take 3 arguments 
+// 1st - position 
+// 2nd - number elements want to remove 
+// 3rd - elements can be more than on 
+
+// to add elemnt - set 2nd argument 0 
+console.log(languages)
+languages.splice(1,0, "python")
+
+// to remove elemnt - set 2nd argument greater than 0 
+console.log(languages)
+languages.splice(1,1,"Dart")
+console.log(languages)
+languages.splice(3,0,"go lang")
+console.log(languages)
+languages.splice(4,1,"Ruby")
+console.log(languages)
+languages.splice(4,1)
+console.log(languages)
+// 6.slice() - to break  array into another piece
+console.log("Slice example")
+let province = ["Bagmati","Koshi","Sudur paschim","Karnali","kavre"]
+let province_two = province.slice(0,2)
+console.log(province)
+console.log(province_two)
+
+// 7. concat - to merge one or more array without mutating primary array
+let group_one = ["Red", "Blue"]
+let group_two = ["Green", "Yellow"]
+let group_three = group_one.concat(group_two)
+console.log(group_three)
+
+// 8.flat() - convert multi-dimension array to single glat array
+let cities = [["KTM","POKHARA"],["BUTWAL","HETAUDA","JHAPA"]]
+let cities_nepal = cities.flat()
+console.log(cities)
+console.log(cities_nepal)
