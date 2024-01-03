@@ -76,3 +76,13 @@ console.log(d2)
 
 const d3 =  new Date("2024","01","24")
 console.log(d3)
+
+const d4 = new Date("2023-02-12")
+const d5 = new Date("2023/02/12")
+const d6 = new Date("12/10/2024")
+const d7 = new Date("12-10-2024")
+
+console.log(d4)
+console.log(d5)
+console.log(d6)
+console.log(d7)
