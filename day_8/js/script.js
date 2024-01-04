@@ -91,6 +91,7 @@ console.log(d7);
 const d8 = new Date("2023", "12", "24", "12", "25", "58");
 console.log(d8);
 
+
 // we can also create js object using new keyword
 // example
 // defining place
