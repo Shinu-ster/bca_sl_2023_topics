@@ -50,11 +50,4 @@ showForm.addEventListener("click",()=>{
     regForm.hidden = !regForm.hidden
 })
 
-// exercise
-// 1. make one div
-// 2. set its width 100% and height to 400px
-// 3. set background color to red
-// 4.set text color to white
-// 5.change background color with JS Event
-// 6. make two button
-// first button "random Color" secondbutton "blue"
+
